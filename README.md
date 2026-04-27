@@ -2,6 +2,9 @@
 
 本项目是一个完整的物联网（IoT）环境监测与控制系统。项目分为**硬件设备端（下位机）**和**移动应用端（上位机）**两部分。
 硬件端基于 STM32 微控制器采集环境数据（如温度、湿度、光照等），并通过 ESP8266 Wi-Fi 模块将数据上传至服务器；移动端基于 UniApp 开发，用户可以通过手机实时查看环境状态，并进行远程设备控制（如开关灯光）。
+<img width="2362" height="1672" alt="SCH_Schematic1_1-P1_2026-04-27" src="https://github.com/user-attachments/assets/3970c90a-f87e-48f0-b336-f84f2508753a" />
+<img width="2160" height="1749" alt="PCB_PCB1_2026-04-27" src="https://github.com/user-attachments/assets/909007bd-7167-40dc-89f7-e1eb1e2163e7" />
+
 
 ## 📁 项目结构
 
